@@ -42,6 +42,11 @@ void vendor_load_properties() {
     auto rf_version = std::stoi(GetProperty("ro.boot.rf_version", "0"));
 
     switch (rf_version) {
+        case 1: // CN
+            if (device == "RE54E4L1") {
+                OverrideProperty("ro.product.product.model", "RMX3371");
+            }
+            break;
         case 11: // CN
             if (device == "OnePlus8") {
                 OverrideProperty("ro.product.product.model", "IN2010");
