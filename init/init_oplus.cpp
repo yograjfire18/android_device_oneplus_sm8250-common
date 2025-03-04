@@ -91,6 +91,11 @@ void vendor_load_properties() {
                 OverrideProperty("ro.product.product.model", "IN2025");
             }
             break;
+        case 1: // NA
+            if (device == "Realme GT Neo 3T") {
+                OverrideProperty("ro.product.product.model", "RMX3371");
+            }
+            break;
         default:
             LOG(ERROR) << "Unexpected RF version: " << rf_version;
     }
