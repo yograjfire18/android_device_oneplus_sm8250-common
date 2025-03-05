@@ -342,6 +342,9 @@ odm/firmware/fastchg/21619/oplus_vooc_fw_rk826.bin
 odm/firmware/fastchg/2161A/oplus_vooc_fw_rk826.bin
 odm/firmware/fastchg/2169A/oplus_vooc_fw_rk826.bin
 odm/firmware/fastchg/2169B/oplus_vooc_fw_rk826.bin
+odm/firmware/fastchg/21623/oplus_vooc_fw_rk826.bin
+odm/firmware/fastchg/21732/oplus_vooc_fw_rk826.bin
+odm/firmware/fastchg/21733/oplus_vooc_fw_rk826.bin
 
 # CNE
 vendor/app/CneApp/CneApp.apk;REQUIRED=CneApp.libvndfwk_detect_jni.qti_symlink
